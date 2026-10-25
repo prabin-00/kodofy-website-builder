@@ -1,0 +1,12 @@
+{
+  "name": "kodofy-clone-workspace",
+  "private": true,
+  "workspaces": [
+    "kodofy-clone/src"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace=kodofy-clone",
+    "build": "npm run build --workspace=kodofy-clone",
+    "preview": "npm run preview --workspace=kodofy-clone"
+  }
+}
